@@ -1,0 +1,88 @@
+# Ficheiros e pastas do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Pastas de build
+bin/
+obj/
+
+# Logs e ficheiros temporários
+*.log
+*.tmp
+
+# Pastas e ficheiros do sistema
+*.DS_Store
+*.dbmdl
+*.dbproj.schemaview
+
+# Resultados de testes
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Node (caso uses front-end com JS/TS)
+node_modules/
+dist/
+
+# Ficheiros do Visual Studio Code (opcional)
+.vscode/
+.history/
+
+# ReSharper, Rider e outros plugins JetBrains
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# Backup de ficheiros do Visual Studio
+*.bak
+*.Backup*/
+_UpgradeReport_Files/
+
+# Migrations removidas ou backups
+*.old.cs
+*.backup.cs
+
+# Outros ficheiros inúteis
+*.nupkg
+*.snupkg
+*.pfx
+*.publishsettings
+*.vspscc
+*.vssscc
+*.tlog
+*.ilk
+*.obj
+*.pdb
+*.iobj
+*.ipdb
+*.tmp_proj
+*.VC.db
+*.VC.VC.opendb
+*.cache
+*.db
+
+# Ignora pacotes NuGet restaurados localmente
+**/packages/*
+!**/packages/build/
+
+# Publish e deployment
+publish/
+*.pubxml
+*.publishproj
+
+# Ferramentas .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+ScaffoldingReadMe.txt
+
+# Azure, Docker, etc. (se aplicável)
+docker-compose.override.yml
+*.azurePubxml
+csx/
+ecf/
+rcf/
