@@ -1,4 +1,7 @@
+using BackEndHorario.Controllers;
 using BackEndHorario.Data;
+using BackEndHorario.Services;
+using DocumentFormat.OpenXml.InkML;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,15 +17,47 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowAll", policy => {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options => {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+    });
+
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope()) {
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    var importador = new ImportadorExcelService(context);
+    var caminho = Path.Combine(Directory.GetCurrentDirectory(), "ficheiros", "Gestão de Projetos.xlsx");
+
+    // 1. Primeiro importa os dados de base
+    await importador.ImportarCursosAsync(caminho);
+    await importador.ImportarDocentesAsync(caminho);  // << ? antes das UCs
+    await importador.ImportarEscolasAsync(caminho);
+    await importador.ImportarSalasAsync(caminho);
+    await importador.ImportarTurmasAsync(caminho);
+    await importador.ImportarHorariosAsync(caminho); // se aplic vel
+
+    // 2. Depois importa as UCs (agora com nomes reais)
+    await importador.ImportarUCsAsync(caminho);
+
+    // 3. S  por fim gera blocos
+    var gerador = new GeradorBlocosService(context);
+    await gerador.GerarBlocosPadraoAsync();
+}
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+if (app.Environment.IsDevelopment()) {
     app.UseMigrationsEndPoint();
 }
-else
-{
+else {
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
@@ -32,6 +67,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

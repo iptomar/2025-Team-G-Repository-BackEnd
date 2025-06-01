@@ -3,32 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\blocoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\blocoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\geradorblocosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\geradorblocosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\horarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\horarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\salascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\salascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\unidades_curricularescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\unidades_curricularescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\turmascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\utilizador~\\source\\repos\\2025-team-g-repository-backend\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,92 +30,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlocosController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\BlocosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BlocosController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\BlocosController.cs",
-              "RelativeToolTip": "Controllers\\BlocosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GeradorBlocosService.cs",
+              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\GeradorBlocosService.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeradorBlocosService.cs",
+              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\GeradorBlocosService.cs",
+              "RelativeToolTip": "Controllers\\GeradorBlocosService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAArwG4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:51:01.867Z",
+              "WhenOpened": "2025-06-01T23:08:27.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HorariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\HorariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HorariosController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\HorariosController.cs",
-              "RelativeToolTip": "Controllers\\HorariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:50:34.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalasController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\SalasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SalasController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\SalasController.cs",
-              "RelativeToolTip": "Controllers\\SalasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:50:04.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Unidades_CurricularesController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\Unidades_CurricularesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Unidades_CurricularesController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\Unidades_CurricularesController.cs",
-              "RelativeToolTip": "Controllers\\Unidades_CurricularesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:49:22.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DocentesController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\DocentesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DocentesController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\DocentesController.cs",
-              "RelativeToolTip": "Controllers\\DocentesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:48:46.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TurmasController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\TurmasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TurmasController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\TurmasController.cs",
-              "RelativeToolTip": "Controllers\\TurmasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:48:15.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CursosController.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\CursosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CursosController.cs",
-              "ToolTip": "C:\\Users\\Utilizador~\\source\\repos\\2025-Team-G-Repository-BackEnd\\Controllers\\CursosController.cs",
-              "RelativeToolTip": "Controllers\\CursosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T21:43:33.438Z",
+              "Title": "dbo.Utilizadores [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql",
+              "ToolTip": "dbo.Utilizadores [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-01T23:03:36.435Z",
               "EditorCaption": ""
             }
           ]
