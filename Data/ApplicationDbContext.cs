@@ -56,6 +56,12 @@ namespace BackEndHorario.Data {
                 .WithMany(u => u.Blocos)
                 .HasForeignKey(b => b.UtilizadorId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // Configuração do comprimento máximo da coluna TipoAula
+            modelBuilder.Entity<Blocos>()
+                .Property(b => b.TipoAula)
+                .HasMaxLength(50)  // Define 50 caracteres como tamanho máximo
+                .IsRequired();     // Mantém obrigatória
         }
     }
 }

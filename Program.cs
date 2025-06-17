@@ -1,5 +1,6 @@
 using BackEndHorario.Controllers;
 using BackEndHorario.Data;
+using BackEndHorario.Hubs;
 using BackEndHorario.Services;
 using DocumentFormat.OpenXml.InkML;
 using Microsoft.AspNetCore.Identity;
@@ -18,10 +19,11 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddCors(options => {
-    options.AddPolicy("AllowAll", policy => {
-        policy.AllowAnyOrigin()
+    options.AddPolicy("AllowAll", builder => {
+        builder.WithOrigins("http://localhost:3000", "http://localhost:3001", "http://localhost:5173")
               .AllowAnyMethod()
-              .AllowAnyHeader();
+              .AllowAnyHeader()
+              .AllowCredentials();
     });
 });
 
@@ -29,6 +31,7 @@ builder.Services.AddControllers()
     .AddJsonOptions(options => {
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -50,6 +53,9 @@ using (var scope = app.Services.CreateScope()) {
 
     // 3. S  por fim gera blocos
     var gerador = new GeradorBlocosService(context);
+    await gerador.LimparBlocosAsync();
+
+    // 4. Gera blocos padrao
     await gerador.GerarBlocosPadraoAsync();
 }
 
@@ -76,5 +82,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+app.MapHub<HorarioHub>("/horarioHub"); // <-- Registo da rota do hub
 
 app.Run();
