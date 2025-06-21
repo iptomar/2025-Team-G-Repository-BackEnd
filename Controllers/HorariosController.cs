@@ -25,8 +25,48 @@ namespace BackEndHorario.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Horarios>>> GetHorarios()
         {
-            return await _context.Horarios.ToListAsync();
+
+            var userId = 1; // Exemplo: mock para testes locais
+            var user = await _context.Utilizadores.FindAsync(userId);
+
+            if (user == null)
+                return Unauthorized();
+
+            if (user.Perfil == PerfilUtilizador.Admin)
+                return await _context.Horarios.ToListAsync();
+
+            if (user.Perfil == PerfilUtilizador.ComissaoEscola && user.EscolaId.HasValue)
+            {
+                var cursos = await _context.Cursos
+                    .Where(c => _context.UnidadesCurriculares.Any(u => u.CursoId == c.Id &&
+                                                                       (_context.Salas.Any(s => s.Id == u.SalaPLId && s.EscolaId == user.EscolaId) ||
+                                                                        _context.Salas.Any(s => s.Id == u.SalaTPId && s.EscolaId == user.EscolaId))))
+                    .Select(c => c.Id)
+                    .ToListAsync();
+
+                var anos = await _context.UnidadesCurriculares
+                    .Where(u => cursos.Contains(u.CursoId))
+                    .Select(u => u.Ano)
+                    .Distinct()
+                    .ToListAsync();
+
+                return await _context.Horarios.Where(h => anos.Contains(h.Ano)).ToListAsync();
+            }
+
+            if (user.Perfil == PerfilUtilizador.ComissaoCurso && user.CursoId.HasValue)
+            {
+                var anos = await _context.UnidadesCurriculares
+                    .Where(u => u.CursoId == user.CursoId)
+                    .Select(u => u.Ano)
+                    .Distinct()
+                    .ToListAsync();
+
+                return await _context.Horarios.Where(h => anos.Contains(h.Ano)).ToListAsync();
+            }
+
+            return Forbid();
         }
+
 
         // GET: api/Horarios/5
         [HttpGet("{id}")]

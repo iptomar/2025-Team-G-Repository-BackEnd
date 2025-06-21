@@ -31,15 +31,6 @@ namespace BackEndHorario.Services {
         public async Task GerarBlocosPadraoAsync() {
             const int semanasLetivas = 14;
 
-            if (!_context.Utilizadores.Any()) {
-                _context.Utilizadores.Add(new Utilizadores {
-                    Nome = "Admin",
-                    Perfil = Utilizadores.PerfilUtilizador.Admin
-                });
-
-                await _context.SaveChangesAsync();
-            }
-
             var utilizador = await _context.Utilizadores.FirstAsync();
 
             var turmas = _context.Turmas.ToList();

@@ -1,3 +1,4 @@
+using BackEndHorario;
 using BackEndHorario.Controllers;
 using BackEndHorario.Data;
 using BackEndHorario.Hubs;
@@ -36,9 +37,15 @@ builder.Services.AddSignalR();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope()) {
+    var services = scope.ServiceProvider;
+    SeedData.Inicializar(services);
+}
+
+
+using (var scope = app.Services.CreateScope()) {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     var importador = new ImportadorExcelService(context);
-    var caminho = Path.Combine(Directory.GetCurrentDirectory(), "ficheiros", "Gest„o de Projetos.xlsx");
+    var caminho = Path.Combine(Directory.GetCurrentDirectory(), "ficheiros", "Gest√£o de Projetos.xlsx");
 
     // 1. Primeiro importa os dados de base
     await importador.ImportarCursosAsync(caminho);
