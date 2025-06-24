@@ -1,33 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\controllers\\blocoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\blocoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\models\\blocodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:models\\blocodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\models\\registarutilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:models\\registarutilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\controllers\\geradorblocosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\geradorblocosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\models\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:models\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Blocos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\jpsil\\riderprojects\\2025-team-g-repository-backend\\2025-team-g-repository-backend\\hubs\\horariohub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:hubs\\horariohub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,88 +25,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Blocos [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Blocos.sql",
-              "ToolTip": "dbo.Blocos [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-17T13:31:35.475Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeradorBlocosService.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Controllers\\GeradorBlocosService.cs",
-              "RelativeDocumentMoniker": "Controllers\\GeradorBlocosService.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Controllers\\GeradorBlocosService.cs",
-              "RelativeToolTip": "Controllers\\GeradorBlocosService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAiwJIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T15:43:45.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlocoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Models\\BlocoDTO.cs",
-              "RelativeDocumentMoniker": "Models\\BlocoDTO.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Models\\BlocoDTO.cs",
-              "RelativeToolTip": "Models\\BlocoDTO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T15:36:22.046Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlocosController.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Controllers\\BlocosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BlocosController.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Controllers\\BlocosController.cs",
-              "RelativeToolTip": "Controllers\\BlocosController.cs",
-              "ViewState": "AgIAADQBAAAAAAAAAAAwwEUBAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:17:53.857Z"
+              "Title": "dbo.Utilizadores [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql",
+              "ToolTip": "dbo.Utilizadores [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-24T23:30:36.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwD8AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Utilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\Utilizadores.cs",
+              "RelativeDocumentMoniker": "Models\\Utilizadores.cs",
+              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\Utilizadores.cs",
+              "RelativeToolTip": "Models\\Utilizadores.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T16:44:43.761Z"
+              "WhenOpened": "2025-06-24T23:30:03.981Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwC8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UtilizadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Controllers\\UtilizadoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UtilizadoresController.cs",
+              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Controllers\\UtilizadoresController.cs",
+              "RelativeToolTip": "Controllers\\UtilizadoresController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwKEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:14:36.808Z"
+              "WhenOpened": "2025-06-24T23:28:13.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HorarioHub.cs",
-              "DocumentMoniker": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Hubs\\HorarioHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\HorarioHub.cs",
-              "ToolTip": "C:\\Users\\jpsil\\RiderProjects\\2025-Team-G-Repository-BackEnd\\2025-Team-G-Repository-BackEnd\\Hubs\\HorarioHub.cs",
-              "RelativeToolTip": "Hubs\\HorarioHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RegistarUtilizadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\RegistarUtilizadorDTO.cs",
+              "RelativeDocumentMoniker": "Models\\RegistarUtilizadorDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\RegistarUtilizadorDTO.cs",
+              "RelativeToolTip": "Models\\RegistarUtilizadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T13:13:26.929Z"
+              "WhenOpened": "2025-06-24T23:25:08.121Z",
+              "EditorCaption": ""
             }
           ]
         }

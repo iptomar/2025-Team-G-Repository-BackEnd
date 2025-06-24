@@ -129,28 +129,37 @@ namespace BackEndHorario.Controllers
         {
             return _context.Utilizadores.Any(e => e.Id == id);
         }
-        
+
+        [AllowAnonymous]
         [HttpPost("registo")]
-        public async Task<IActionResult> RegistarUtilizador([FromBody] RegistarUtilizadorDTO dto) {
-            var utilizador = new Utilizadores {
+        public async Task<IActionResult> RegistarUtilizador([FromBody] RegistarUtilizadorDTO dto)
+        {
+            if (await _context.Utilizadores.AnyAsync(u => u.Email == dto.Email))
+            {
+                return BadRequest("Já existe um utilizador com este email.");
+            }
+
+            var utilizador = new Utilizadores
+            {
                 Nome = dto.Nome,
                 Email = dto.Email,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
-                Perfil = PerfilUtilizador.ComissaoCurso,
-                EscolaId = dto.EscolaId,
-                CursoId = dto.CursoId
+                Perfil = PerfilUtilizador.ComissaoCurso
             };
 
             _context.Utilizadores.Add(utilizador);
             await _context.SaveChangesAsync();
 
-            return Ok("Utilizador registado");
-            
-            
-            
-            
-
-
+            return Ok(new
+            {
+                utilizador.Id,
+                utilizador.Nome,
+                utilizador.Email,
+                utilizador.Perfil,
+                token = "fake-jwt-token"
+            });
         }
+
+
     }
 }
