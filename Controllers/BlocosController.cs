@@ -195,7 +195,7 @@ namespace BackEndHorario.Controllers {
                 return NotFound();
             }
 
-            // Atualizar propriedades permitidas
+            // Atualizar propriedades permitidaas
             blocoNaDb.NumeroSlots = dto.NumeroSlots;
             blocoNaDb.RepetirSemanas = dto.RepetirSemanas;
             blocoNaDb.TipoAula = dto.TipoAula;
