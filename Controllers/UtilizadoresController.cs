@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BackEndHorario.Data;
 using BackEndHorario.Models;
+using BCrypt.Net;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace BackEndHorario.Controllers
 {
@@ -20,6 +23,28 @@ namespace BackEndHorario.Controllers
         {
             _context = context;
         }
+        
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDTO dto)
+        {
+            var user = await _context.Utilizadores.FirstOrDefaultAsync(u => u.Email == dto.Email);
+            if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
+            {
+                return Unauthorized("Credenciais inválidas");
+            }
+
+            // ⚠️ Apenas devolvemos info básica neste exemplo (podes depois gerar JWT aqui)
+            return Ok(new
+            {
+                user.Id,
+                user.Nome,
+                user.Email,
+                user.Perfil,
+                token = "fake-jwt-token" // Por agora, simulação
+            });
+        }
+        
 
         // GET: api/Utilizadores
         [HttpGet]
@@ -104,5 +129,37 @@ namespace BackEndHorario.Controllers
         {
             return _context.Utilizadores.Any(e => e.Id == id);
         }
+
+        [AllowAnonymous]
+        [HttpPost("registo")]
+        public async Task<IActionResult> RegistarUtilizador([FromBody] RegistarUtilizadorDTO dto)
+        {
+            if (await _context.Utilizadores.AnyAsync(u => u.Email == dto.Email))
+            {
+                return BadRequest("Já existe um utilizador com este email.");
+            }
+
+            var utilizador = new Utilizadores
+            {
+                Nome = dto.Nome,
+                Email = dto.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
+                Perfil = PerfilUtilizador.ComissaoCurso
+            };
+
+            _context.Utilizadores.Add(utilizador);
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                utilizador.Id,
+                utilizador.Nome,
+                utilizador.Email,
+                utilizador.Perfil,
+                token = "fake-jwt-token"
+            });
+        }
+
+
     }
 }
