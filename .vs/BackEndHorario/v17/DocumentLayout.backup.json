@@ -3,23 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Data\\Migrations\\20250624234633_NomeDaMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250624234633_NomeDaMigracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\models\\registarutilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:models\\registarutilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\models\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:models\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:controllers\\utilizadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|c:\\users\\rodri\\projetogp\\2025-team-g-repository-backend\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{268BC867-629D-7FBF-3D00-3E4C749C3F92}|BackEndHorario.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,63 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250624234633_NomeDaMigracao.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Data\\Migrations\\20250624234633_NomeDaMigracao.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20250624234633_NomeDaMigracao.cs",
-              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Data\\Migrations\\20250624234633_NomeDaMigracao.cs",
-              "RelativeToolTip": "Data\\Migrations\\20250624234633_NomeDaMigracao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T23:46:33.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.Utilizadores [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BackEndHorario_3467381c_1183_4cd6_a4b8_a82ccad4b510/True/SqlTable/dbo.Utilizadores.sql",
-              "ToolTip": "dbo.Utilizadores [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-24T23:30:36.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Utilizadores.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\Utilizadores.cs",
-              "RelativeDocumentMoniker": "Models\\Utilizadores.cs",
-              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\Utilizadores.cs",
-              "RelativeToolTip": "Models\\Utilizadores.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T23:30:03.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UtilizadoresController.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Controllers\\UtilizadoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UtilizadoresController.cs",
-              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Controllers\\UtilizadoresController.cs",
-              "RelativeToolTip": "Controllers\\UtilizadoresController.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAYwKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T23:28:13.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegistarUtilizadorDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\RegistarUtilizadorDTO.cs",
-              "RelativeDocumentMoniker": "Models\\RegistarUtilizadorDTO.cs",
-              "ToolTip": "C:\\Users\\rodri\\ProjetoGP\\2025-Team-G-Repository-BackEnd\\Models\\RegistarUtilizadorDTO.cs",
-              "RelativeToolTip": "Models\\RegistarUtilizadorDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T23:25:08.121Z",
+              "WhenOpened": "2025-06-25T17:50:27.876Z",
               "EditorCaption": ""
             }
           ]

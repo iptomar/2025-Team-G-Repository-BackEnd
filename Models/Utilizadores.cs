@@ -26,6 +26,9 @@ namespace BackEndHorario.Models
         public int? CursoId { get; set; }
         public Cursos? Curso { get; set; }
 
+        public bool PodeGerirBlocos { get; set; } = false;
+
+
         public ICollection<Blocos> Blocos { get; set; } = new List<Blocos>();
     }
 }
