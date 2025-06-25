@@ -109,7 +109,7 @@ namespace BackEndHorario.Controllers
             return CreatedAtAction("GetUtilizadores", new { id = utilizadores.Id }, utilizadores);
         }
 
-        // DELETE: api/Utilizadores/5
+        // DELETE: api/Utilizadoress/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUtilizadores(int id)
         {
