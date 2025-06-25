@@ -41,10 +41,12 @@ namespace BackEndHorario.Controllers
                 user.Nome,
                 user.Email,
                 user.Perfil,
-                token = "fake-jwt-token" // Por agora, simulação
+                user.PodeGerirBlocos,
+                token = "fake-jwt-token"
             });
+
         }
-        
+
 
         // GET: api/Utilizadores
         [HttpGet]
@@ -108,6 +110,20 @@ namespace BackEndHorario.Controllers
 
             return CreatedAtAction("GetUtilizadores", new { id = utilizadores.Id }, utilizadores);
         }
+
+        [HttpPut("{id}/permissao")]
+        public async Task<IActionResult> AtualizarPermissao(int id, [FromBody] AtualizarPermissaoDTO dto)
+        {
+            var utilizador = await _context.Utilizadores.FindAsync(id);
+            if (utilizador == null)
+                return NotFound();
+
+            utilizador.PodeGerirBlocos = dto.PodeGerirBlocos;
+            await _context.SaveChangesAsync();
+
+            return Ok(utilizador);
+        }
+
 
         // DELETE: api/Utilizadoress/5
         [HttpDelete("{id}")]
